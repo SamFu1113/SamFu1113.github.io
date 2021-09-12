@@ -1,0 +1,15 @@
+
+* {  
+font-family: 'Noto Sans TC', sans-serif;
+font-family: 'Nova Slim', cursive;
+}
+body{ 
+    background-image:url(../images/p-hypnotize.png);}
+    
+.navbar-light .navbar-brand{
+    color: #CCEEFF !important;
+}
+.navbar-light .navbar-brand:hover{
+    color: #33CCFF !important;
+}
+footer{color:#CCEEFF !important; }
