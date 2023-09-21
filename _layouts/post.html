@@ -3,8 +3,9 @@ layout: default
 ---
 
 <article class="post">
+  <script defer src="index.js"></script>
   <h1>{{ page.title }}</h1>
-
+  
   <div class="entry">
     {{ content }}
   </div>
@@ -13,7 +14,7 @@ layout: default
     Written on {{ page.date | date: "%B %e, %Y" }}
   </div>
 
-  <div class="count">
+  <div class="website-counter">
     Visited count: {{ page.date | date: "%B %e, %Y" }}
   </div>
 
